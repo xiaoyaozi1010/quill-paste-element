@@ -1,0 +1,38 @@
+{
+  "name": "@tencent/quill-paste-element",
+  "version": "1.0.0",
+  "author": "zhiyongli@tencent.com",
+  "description": "a image and table paste plugin for quill.js",
+  "keywords": [
+    "quilljs",
+    "paste",
+    "image",
+    "table"
+  ],
+  "main": "./dist/paste-element.js",
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "@babel/runtime-corejs2": "^7.2.0",
+    "axios": "^0.18.0",
+    "lodash.merge": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "quill": "^1.3.6",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "dev": "webpack --config=./webpack.config.js --watch",
+    "build": "webpack && webpack --config=./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.code.oa.com/zhiyongli/quill-paste-element"
+  },
+  "bugs": "https://git.code.oa.com/zhiyongli/quill-paste-element/issues",
+  "license": "MIT"
+}

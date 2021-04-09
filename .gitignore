@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.vscode
+theme/sprite/*
+package-lock.json
+/nbproject/private/
+/.idea
+yarn.lock
